@@ -4,7 +4,7 @@ const DefinePlugin = require('webpack/lib/DefinePlugin')
 const HotModuleReplacementPlugin = require('webpack/lib/HotModuleReplacementPlugin')
 const baseWebpackConfig = require('./webpack.base.config')
 
-const hotMiddlewareScript = 'webpack-hot-middleware/client?path=/__webpack_hmr';
+const hotMiddlewareScript = 'webpack-hot-middleware/client?path=/__webpack_hmr&reload=true';
 
 Object.keys(baseWebpackConfig.entry).forEach(name => {
   // HMR client
@@ -22,7 +22,7 @@ const config = merge(baseWebpackConfig, {
 
 module.exports = config
 
-
+console.log('----', config)
 
 
 

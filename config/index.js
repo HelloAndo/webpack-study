@@ -3,7 +3,7 @@ const path = require('path')
 module.exports = {
   dev: {
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    assetsPublicPath: '',
     proxyTable: {
       '/api': {
         target: '',
@@ -17,7 +17,7 @@ module.exports = {
   },
   build: {
     assetsRoot: path.resolve(__dirname, '../dist'),
-    assetsSubDir: './static',
-    assetsPublicPath: './'
+    assetsSubDir: 'static',
+    assetsPublicPath: ''
   }
 }

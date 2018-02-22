@@ -14,6 +14,7 @@ const autoPlugin = new AutoWebPlugin('./src/pages', {
   },
   // these chunk entrys will be injected to htmls automatically 
   // preEntrys: ['./src/pages/main.css', './src/pages/main.js'],
+  // preEntrys: ['./src/pages/main.css', 'babel-polyfill'],
   preEntrys: ['./src/pages/main.css'],
   entry: {}
 })

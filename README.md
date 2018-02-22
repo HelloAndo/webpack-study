@@ -1,6 +1,6 @@
 TODO:
-- [ ] babel: es6
+- [x] babel: es6
 - [ ] iconfont
-- [ ] image
+- [x] image
 - [ ] proxyTable
 - [ ] devServer
