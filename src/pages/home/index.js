@@ -1,5 +1,7 @@
 import $ from 'jquery'
 
+require('./index.styl')
+
 let render = require('./body/template.art')
 // var template = require('art-template')
 // var template = require('../../../node_modules/art-template/lib/')

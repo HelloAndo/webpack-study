@@ -3,7 +3,7 @@ const webpack = require('webpack')
 const merge = require('webpack-merge')
 const webpackConfig = require('./webpack.dev.config')
 
-const PORT = 3300
+const PORT = require('./config').dev.port
 
 const app = express()
 const compiler = webpack(webpackConfig)

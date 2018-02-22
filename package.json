@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev": "node ./dev-server.js"
+    "dev": "nodemon ./dev-server.js",
+    "build": "node ./build.js"
   },
   "name": "",
   "version": "",
@@ -13,12 +14,16 @@
     "extract-text-webpack-plugin": "^3.0.2",
     "fs": "^0.0.1-security",
     "jquery": "^3.3.1",
+    "rimraf": "^2.6.2",
     "style-loader": "^0.20.2",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
     "web-webpack-plugin": "^1.10.2",
     "webpack": "^3.11.0",
     "webpack-dev-middleware": "^2.0.5",
     "webpack-hot-middleware": "^2.21.0",
-    "webpack-merge": "^4.1.1"
+    "webpack-merge": "^4.1.1",
+    "webpack-parallel-uglify-plugin": "^1.0.2"
   },
   "dependencies": {
     "art-template": "^4.12.2"
